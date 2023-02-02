@@ -51,10 +51,17 @@ found by right-clicking on the server, and clicking "Copy ID".
 Now, we can run the bot. In the terminal, run the following command:
 
 ```bash
+npm install
+```
+
+This will install all of the dependencies for the bot. Next, we'll need to
+deploy the slash commands to the server. In the terminal, run the following:
+
+```bash
 node deploy-commands.js
 ```
 
-This will deploy the slash commands to the server. Now, we can run the bot.
+Now, we can run the bot:
 
 ```bash
 node index.js

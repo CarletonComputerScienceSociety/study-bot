@@ -66,3 +66,17 @@ Now, we can run the bot:
 ```bash
 node index.js
 ```
+
+### 5. Stuff to try
+
+#### Ping command
+
+Try the ping tommand to make sure it works. Then, change the ping command to
+instead reply "Hello world!".
+
+#### Learn some more advanced command creation techniques
+
+Read the [docs
+here](https://discordjs.guide/slash-commands/advanced-creation.html#adding-options)
+and try some things out.
+

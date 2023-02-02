@@ -20,4 +20,9 @@ then have a Discord channel created for them to work together.
         that is generated. You can then paste that URL into your browser and
         invite the bot to your server.
 
+In the terminal, run the following commands:
+
+```bash
+
+
 ## Tech stack

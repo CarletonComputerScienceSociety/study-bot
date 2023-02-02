@@ -10,19 +10,20 @@ then have a Discord channel created for them to work together.
 
 ## Setup instructions
 
-- You'll need to create a Discord bot and get a token for it. You can do this
-  [here](https://discordapp.com/developers/applications/me).
-    - First, you'll create a bot user. You can name it whatever you want.
-    - Then, you'll need to get the token for the bot. You can do this by clicking
-        "click to reveal token" under the bot's username.
-    - You'll also need to invite the bot to your server. You can do this by going
-        to the OAuth2 tab, checking the "bot" scope, and then copying the URL
-        that is generated. You can then paste that URL into your browser and
-        invite the bot to your server.
+First, we'll need to create a Discord bot and get a token for it. For this, we
+can follow the Discord.js guide [found
+here](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot).
 
-In the terminal, run the following commands:
+Next...
+
+Next, we'll need to set up the `config.json` file. In the terminal, run the following commands:
 
 ```bash
+cp example.config.json config.json
+```
 
+Now, we need to add our
+
+Then, open the `config.json` file and replace the token with the token you got from the Discord developer portal. You can also change the prefix if you want.
 
 ## Tech stack

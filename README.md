@@ -58,13 +58,13 @@ This will install all of the dependencies for the bot. Next, we'll need to
 deploy the slash commands to the server. In the terminal, run the following:
 
 ```bash
-node deploy-commands.js
+npm run deploy
 ```
 
 Now, we can run the bot:
 
 ```bash
-node index.js
+npm run start
 ```
 
 ### 5. Stuff to try
